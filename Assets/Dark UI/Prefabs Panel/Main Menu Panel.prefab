@@ -765,6 +765,7 @@ GameObject:
   - component: {fileID: 5028371659719729209}
   - component: {fileID: 3679554246123551761}
   - component: {fileID: 681812008363250298}
+  - component: {fileID: 8658030802557376984}
   m_Layer: 5
   m_Name: Shop Button
   m_TagString: Untagged
@@ -887,6 +888,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ButtonScaler
   finalScale: 1.2
   scaleDuration: 0.1
+--- !u!114 &8658030802557376984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4540074070428165381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869c2d67b979484409c5167304873c09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Screens.ScreenHelper
+  screenType: 2
 --- !u!1 &4876996219008373525
 GameObject:
   m_ObjectHideFlags: 0
@@ -1033,6 +1047,7 @@ GameObject:
   - component: {fileID: 7973540391204272979}
   - component: {fileID: 4580080947389488513}
   - component: {fileID: 2629571762287220074}
+  - component: {fileID: 3022834243856589449}
   m_Layer: 5
   m_Name: Main Menu Panel
   m_TagString: Untagged
@@ -1106,6 +1121,33 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3022834243856589449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7445696251816934703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6720502245b4bce4cb42a426810d31d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Screens.ScreenBase
+  screenType: 0
+  listOfObjects:
+  - {fileID: 8845812336593832329}
+  - {fileID: 169048025358255541}
+  - {fileID: 22897887745533403}
+  - {fileID: 1990820141037419981}
+  - {fileID: 7158801347624491695}
+  - {fileID: 7110786287774344310}
+  - {fileID: 4542831718635314021}
+  listOfPhrases:
+  - {fileID: 0}
+  uiBackground: {fileID: 2629571762287220074}
+  startHided: 0
+  animationDuration: 0.3
+  delayBetweenObjects: 0.05
 --- !u!1 &8997379797966620491
 GameObject:
   m_ObjectHideFlags: 0
@@ -1119,6 +1161,7 @@ GameObject:
   - component: {fileID: 7845030026129826419}
   - component: {fileID: 7056221225515524104}
   - component: {fileID: 5448603153587614769}
+  - component: {fileID: 6657359834788005331}
   m_Layer: 5
   m_Name: Settings Button
   m_TagString: Untagged
@@ -1241,3 +1284,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ButtonScaler
   finalScale: 1.2
   scaleDuration: 0.1
+--- !u!114 &6657359834788005331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8997379797966620491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca1ec6a180001a144b64cc4c2cd1b862, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonStartGame
+  particleSystem: {fileID: 0}
